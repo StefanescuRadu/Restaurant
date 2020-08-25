@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+    body{
+        background-image:url(img/booking.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="name-container">
+            
+            <h3>Stefanescu Radu Stefan</h3>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li ><a class="nav-link" href="index.html">Home</a></li>
+                <li ><a class="nav-link" href="menu.html">Menu</a></li>
+                <li ><a class="nav-link" href="booking.html">Booking</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <div class="container-booking">
+      <div class="container-time">
+        <h2 class="heading">Time Open</h2>
+        <h3 class="heading-days">Monday-Friday</h3>
+        <p>7am -- 11 am (breakfast)</p>
+        <p>11am -- 10 pm(lunch&dinner</p>
+
+        <h3 class="heading-days">Saturday-Sunday</h3>
+        <p>9am -- 1pm (breakfast)</p>
+        <p>1pm -- 10pm(lunch&dinner</p>
+
+        <hr>
+        <h4 class="heading-phone">Call us : (000) 00 00 00 00</h4>
+
+      </div>
+
+      <div class="container-form">
+
+        <form action="#">
+
+            <h2 class="heading heading-yellow">Reservation Online</h2>
+
+            <div class="form-field">
+                <p>Your Name</p>
+                <input type="text" placeholder="Your Name">
+            </div>
+
+            <div class="form-field">
+                <p>Your Email</p>
+                <input type="text" placeholder="Your Email">
+            </div>
+
+            <div class="form-field">
+                <p>Date</p>
+                <input type="date">
+            </div>
+
+            <div class="form-field">
+                <p>Time</p>
+                <input type="time">
+            </div>
+
+            <div class="form-field">
+                <p>How many people?</p>
+                <select name="select" id="#">
+                    <option value="1">1 person</option>
+                    <option value="2">2 persons</option>
+                    <option value="3">3 persons</option>
+                    <option value="4">4 persons</option>
+                    <option value="5">5 persons</option>
+                </select>
+            </div>
+
+            <button class="btn">Sumbit</button>
+        </form>
+
+      </div>
+  </div>
+
+</body>
+</html>
